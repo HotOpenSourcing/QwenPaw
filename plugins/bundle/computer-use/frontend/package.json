@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "build": "vite build",
+    "build": "node init && vite build",
     "format": "tsc --noEmit && prettier --write --cache .",
     "format:check": "tsc --noEmit && prettier --check ."
   },
